@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Page title -->
+    <title>TT-Home | Manage your home</title>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!--<link rel="shortcut icon" type="image/ico" href="favicon.ico" />-->
+
+    <!-- Vendor styles -->
+    <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css"/>
+    <link rel="stylesheet" href="vendor/metisMenu/dist/metisMenu.css"/>
+    <link rel="stylesheet" href="vendor/animate.css/animate.css"/>
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css"/>
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css"/>
+    <link rel="stylesheet" href="fonts/pe-icon-7-stroke/css/helper.css"/>
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body class="fixed-navbar fixed-sidebar">
+
+<!-- Simple splash screen-->
+<div class="splash">
+    <div class="color-line"></div>
+    <div class="splash-title"><h1>TT-Home </h1>
+        <p>Manage your home</p>
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+</div>
+<!--[if lt IE 7]>
+<p class="alert alert-danger">You are using an <strong>outdated</strong> browser. Please <a
+        href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Header -->
+<div id="header">
+    <div class="color-line">
+    </div>
+    <div id="logo" class="light-version">
+        <span>
+           TT-Home
+        </span>
+    </div>
+    <nav role="navigation">
+        <form role="search" class="navbar-form-custom" method="post" action="#">
+            <div class="form-group">
+                <input type="text" placeholder="Search your favorite things" class="form-control" name="search">
+            </div>
+        </form>
+        <div class="mobile-menu">
+            <button type="button" class="navbar-toggle mobile-menu-toggle" data-toggle="collapse"
+                    data-target="#mobile-collapse">
+                <i class="fa fa-chevron-down"></i>
+            </button>
+            <div class="collapse mobile-navbar" id="mobile-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="" href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a class="" href="login.html">Logout</a>
+                    </li>
+                    <li>
+                        <a class="" href="profile.html">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="navbar-right">
+            <ul class="nav navbar-nav no-borders">
+                <li class="dropdown">
+                    <a href="login.html">
+                        <i class="pe-7s-upload pe-rotate-90"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<!-- Navigation -->
+<aside id="menu">
+    <div id="navigation">
+        <div class="profile-picture">
+            <a href="index0.html">
+                <img src="images/liqin.jpg" class="img-circle m-b" alt="logo">
+            </a>
+
+            <div class="stats-label text-color">
+                <span class="font-extra-bold font-uppercase">Liqin</span>
+
+                <div class="dropdown">
+                    <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                        <small class="text-muted">Owner of Home <b class="caret"></b></small>
+                    </a>
+                    <ul class="dropdown-menu animated flipInX m-t-xs">
+                        <li><a href="contacts.html">Contacts</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li class="divider"></li>
+                        <li><a href="login.html">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <ul class="nav" id="side-menu">
+            <li class="active">
+                <a href="index0.html"> <span class="nav-label">Resources Overview</span> </a>
+            </li>
+            <li>
+                <a href="computers.html">
+                    <span class="nav-label">Computers</span> </span>
+                </a>
+            </li>
+            <li>
+                <a href="movies.html"><span class="nav-label">Movies</span> </a>
+            </li>
+            <li>
+                <a href="music.html"><span class="nav-label">Music</span> </a>
+            </li>
+            <li>
+                <a href="books.html"><span class="nav-label">Books</span> </a>
+            </li>
+            <li>
+                <a href="photos.html"><span class="nav-label">Photos</span> </a>
+            </li>
+
+        </ul>
+    </div>
+</aside>
+
+<!-- Main Wrapper -->
+<div id="wrapper">
+
+    <div class="content animate-panel">
+        <div class="row">
+            <div class="col-lg-12 text-center m-t-md">
+                <h2>
+                    <strong>Welcome to TT's Home</strong>
+                </h2>
+
+                <p>
+                    Manage <strong>all resources</strong> in your home.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="hpanel">
+                    <div class="panel-heading bg-primary">
+                        <div class="panel-tools">
+                            <a class="showhide"><i class="fa fa-chevron-up"></i></a>
+                            <a class="closebox"><i class="fa fa-times"></i></a>
+                        </div>
+                        <h4><a href="computers.html" class="text-primary fa fa-desktop"> Computers</a></h4>
+                    </div>
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table cellpadding="1" cellspacing="1" class="table">
+                                <thead class="table-icon">
+                                <tr>
+                                    <th><h5><i class="fa fa-child"></i> Name</h5></th>
+                                    <th><h5><i class="fa fa-power-off"></i> Power</h5></th>
+                                    <th><h5><i class="fa fa-bar-chart"></i> CPU</h5></th>
+                                    <th><h5><i class="fa fa-bar-chart"></i> Memory</h5></th>
+                                    <th><h5><i class="fa fa-hdd-o"></i> Disk</h5></th>
+                                    <th><h5><i class="fa fa-file"></i> Files</h5></th>
+                                    <th><h5><i class="fa fa-cogs"></i> OS</h5></th>
+                                </tr>
+                                </thead>
+                                <tbody class="text-info">
+                                <tr>
+                                    <td><a href="computer.html" class="text-info">Notebook DELL</a></td>
+                                    <td class="text-success"><i class="fa fa-bolt"></i></td>
+                                    <td>20%</td>
+                                    <td>50%</td>
+                                    <td>200G</td>
+                                    <td>12,345</td>
+                                    <td>Unbuntu 14.04</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="computer.html" class="text-info">HTPC in Home</a></td>
+                                    <td class="text-success"><i class="fa fa-bolt"></i></td>
+                                    <td>20%</td>
+                                    <td>50%</td>
+                                    <td>200G</td>
+                                    <td>12,345</td>
+                                    <td>Unbuntu 14.04</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="computer.html" class="text-info">PC in Home</a></td>
+                                    <td class="text-danger"><i class="fa fa-bolt"></i></td>
+                                    <td>20%</td>
+                                    <td>50%</td>
+                                    <td>200G</td>
+                                    <td>12,345</td>
+                                    <td>Windows 10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="computer.html" class="text-info">PC in Office DELL</a></td>
+                                    <td class="text-success"><i class="fa fa-bolt"></i></td>
+                                    <td>20%</td>
+                                    <td>50%</td>
+                                    <td>200G</td>
+                                    <td>12,345</td>
+                                    <td>Windows 7</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="computer.html" class="text-info">VM in Office</a></td>
+                                    <td class="text-danger"><i class="fa fa-bolt"></i></td>
+                                    <td>20%</td>
+                                    <td>50%</td>
+                                    <td>200G</td>
+                                    <td>12,345</td>
+                                    <td>Unbuntu 12.04</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="computer.html" class="text-info">Server in Office</a></td>
+                                    <td class="text-danger"><i class="fa fa-bolt"></i></td>
+                                    <td>20%</td>
+                                    <td>50%</td>
+                                    <td>200G</td>
+                                    <td>12,345</td>
+                                    <td>centos 7</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="hpanel">
+                    <div class="panel-heading bg-primary">
+                        <div class="panel-tools">
+                            <a class="showhide"><i class="fa fa-chevron-up"></i></a>
+                            <a class="closebox"><i class="fa fa-times"></i></a>
+                        </div>
+                        <h4><a href="movies.html" class="text-primary fa fa-film"> Movies</a></h4>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-2 alert alert-info text-center">
+                                <div class="list-item-container m-t-xl text-info">
+                                    <div class="list-item">
+                                        <i class="fa fa-file-movie-o fa-2x text-info"></i>
+                                        <h3 class="no-margins font-extra-bold text-success">2,773</h3>
+                                        <small>files</small>
+                                    </div>
+                                    <div class="list-item">
+                                        <i class="fa fa-folder-o fa-2x text-info"></i>
+                                        <h3 class="no-margins font-extra-bold text-success">30</h3>
+                                        <small>categories</small>
+                                    </div>
+                                </div>
+                                <div class="small m-t-xl text-info">
+                                    <i class="fa fa-clock-o"></i> Updated at 17:05, 04/12/2016
+                                </div>
+                            </div>
+                            <div class="col-md-10 text-center">
+                                <div class="small text-info">
+                                    <i class="fa fa-video-camera"></i> Latest 8 films
+                                </div>
+                                <div class="m-t-xs">
+                                    <img src="images/movies/1.jpg">
+                                    <img src="images/movies/2.jpg">
+                                    <img src="images/movies/3.jpg">
+                                    <img src="images/movies/4.jpg">
+                                    <img src="images/movies/5.jpg">
+                                    <img src="images/movies/6.jpg">
+                                    <img src="images/movies/7.jpg">
+                                    <img src="images/movies/8.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <footer class="footer">
+        <span class="pull-right">© 2016 Liqin</span>
+    </footer>
+
+</div>
+
+
+<!-- Vendor scripts -->
+<script src="vendor/jquery/dist/jquery.min.js"></script>
+<script src="vendor/jquery-ui/jquery-ui.min.js"></script>
+<script src="vendor/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="vendor/jquery-flot/jquery.flot.js"></script>
+<script src="vendor/jquery-flot/jquery.flot.resize.js"></script>
+<script src="vendor/jquery-flot/jquery.flot.pie.js"></script>
+<script src="vendor/flot.curvedlines/curvedLines.js"></script>
+<script src="vendor/jquery.flot.spline/index.js"></script>
+<script src="vendor/metisMenu/dist/metisMenu.min.js"></script>
+<script src="vendor/iCheck/icheck.min.js"></script>
+<script src="vendor/peity/jquery.peity.min.js"></script>
+<script src="vendor/sparkline/index.js"></script>
+
+<script>
+    function fixWrapperHeight() {
+
+        // Get and set current height
+        var headerH = 62;
+        var navigationH = $("#navigation").height();
+        var contentH = $(".content").height();
+
+        // Set new height when contnet height is less then navigation
+        if (contentH < navigationH) {
+            $("#wrapper").css("min-height", navigationH + 'px');
+        }
+
+        // Set new height when contnet height is less then navigation and navigation is less then window
+        if (contentH < navigationH && navigationH < $(window).height()) {
+            $("#wrapper").css("min-height", $(window).height() - headerH + 'px');
+        }
+
+        // Set new height when contnet is higher then navigation but less then window
+        if (contentH > navigationH && contentH < $(window).height()) {
+            $("#wrapper").css("min-height", $(window).height() - headerH + 'px');
+        }
+    }
+
+    $(window).bind("load", function () {
+        // Remove splash screen after load
+        $('.splash').css('display', 'none')
+    });
+
+    fixWrapperHeight()
+</script>
+</body>
+</html>
